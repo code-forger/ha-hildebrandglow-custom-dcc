@@ -193,6 +193,7 @@ async def daily_data(hass: HomeAssistant, resource) -> (float, str):
             "Readings for %s has %s entries", resource.classifier, len(
                 readings)
         )
+        _LOGGER.warning("got readings: %s", str(readings))
         v = readings[0][1].value
         if len(readings) > 1:
             v += readings[1][1].value
