@@ -1,4 +1,4 @@
-"""The Hildebrand Glow (DCC) integration."""
+"""The Hildebrand Glow Custom (DCC) integration."""
 from __future__ import annotations
 
 import logging
